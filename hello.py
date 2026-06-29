@@ -48,3 +48,7 @@ for i in range(3):
         print(i, " is greater than both a and b")
     else:
         print(i, " is between a and b")
+
+
+print("-- More maths")
+print("The product from previous values is: ", a * b)
