@@ -28,8 +28,14 @@ print("I am going to make a simple code so that i can learn how to merge properl
 for i in range(4):
     print("simple loop iteration", i)
 
+print("-- Some other maths")
 
-print(" This change is just to see how to create a conflict and solve it")
+for i in range(5):
+    ar = i * 2
+    br = np.round(np.log(ar + 1) + i,4)
+    print("The value is", br)
+
+print("-- This change is just to see how to create a conflict and solve it")
 a = 0.9
 b = 1.9
 print ("a is", a, "; and b is", b)
@@ -40,3 +46,10 @@ for i in range(3):
         print(i, " is greater than both a and b")
     else:
         print(i, " is between a and b")
+
+print("-- Automatic merge")
+
+ac = np.array([1,2,0])
+bc = np.array([2,0,1])
+print("The sum is", ac + bc)
+
