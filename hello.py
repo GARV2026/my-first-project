@@ -34,3 +34,17 @@ for i in range(5):
     ar = i * 2
     br = np.round(np.log(ar + 1) + i,4)
     print("The value is", br)
+
+
+
+print(" This change is just to see how to create a conflict and solve it")
+a = 0.9
+b = 1.9
+print ("a is", a, "; and b is", b)
+for i in range(3):
+    if i < a and i <= b:
+        print(i," is less than both a and b")
+    elif i > a and i > b:
+        print(i, " is greater than both a and b")
+    else:
+        print(i, " is between a and b")
