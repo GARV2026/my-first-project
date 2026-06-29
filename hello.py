@@ -25,5 +25,5 @@ C = np.array([[1, 2, 3],
 print(A + C)
 
 print("I am going to make a simple code so that i can learn how to merge properly")
-for i in range(5):
+for i in range(3):
     print("simple loop iteration", i)
