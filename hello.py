@@ -27,3 +27,10 @@ print(A + C)
 print("I am going to make a simple code so that i can learn how to merge properly")
 for i in range(4):
     print("simple loop iteration", i)
+
+print("Some other maths")
+
+for i in range(5):
+    ar = i * 2
+    br = np.round(np.log(ar + 1) + i,4)
+    print("The value is", br)
