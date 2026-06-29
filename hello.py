@@ -5,3 +5,6 @@ print("Making changes in the branch")
 print("Goodbye from farewell branch")
 print("Hello from the second branch")
 
+print("SIMPLE MATHS")
+print(5 - 3)
+print(4 * 6)
