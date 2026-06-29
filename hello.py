@@ -1,4 +1,4 @@
-print("hello Github")
+print("hello World and gitHub")
 print("Learning to use Git")
 print("Using branches")
 print("Making changes in the branch")
