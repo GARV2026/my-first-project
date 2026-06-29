@@ -36,8 +36,14 @@ for i in range(5):
     print("The value is", br)
 
 
+print("-- Some other maths")
 
-print(" This change is just to see how to create a conflict and solve it")
+for i in range(5):
+    ar = i * 2
+    br = np.round(np.log(ar + 1) + i,4)
+    print("The value is", br)
+
+print("-- This change is just to see how to create a conflict and solve it")
 a = 0.9
 b = 1.9
 print ("a is", a, "; and b is", b)
@@ -52,3 +58,8 @@ for i in range(3):
 
 print("-- More maths")
 print("The product from previous values is: ", a * b)
+print("-- Automatic merge")
+ac = np.array([1,2,0])
+bc = np.array([2,0,1])
+print("The sum is", ac + bc)
+
