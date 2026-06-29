@@ -22,4 +22,6 @@ print("MATRIX ADDITION")
 C = np.array([[1, 2, 3],
     [0, 1, 0],
     [1, 1, 1]])
-print(A + C)
+print(A + C)print("I am going to make a simple code so that i can learn how to merge properly")
+for i in range(5):
+    print("simple loop iteration", i)
