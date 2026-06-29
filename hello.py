@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 print("hello World and gitHub")
+=======
+print("hello Github!")
+>>>>>>> mod
 print("Learning to use Git")
 print("Using branches")
 print("Making changes in the branch")
