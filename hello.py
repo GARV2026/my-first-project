@@ -1,19 +1,15 @@
-<<<<<<< HEAD
-print("hello World and gitHub")
-=======
 print("hello Github!")
->>>>>>> mod
 print("Learning to use Git")
 print("Using branches")
 print("Making changes in the branch")
 print("Goodbye from farewell branch")
 print("Hello from the second branch")
 
-print("SIMPLE MATHS")
+print("-- SIMPLE MATHS")
 print(5 - 3)
 print(4 * 6)
 
-print("MATRIX MULTIPLICATION")
+print("-- MATRIX MULTIPLICATION")
 import numpy as np
 A = np.array([[1, 2, 3],
     [0, 1, 0],
@@ -22,23 +18,15 @@ A = np.array([[1, 2, 3],
 B = np.array([[3], [3], [0]])
 print(A @B)
 
-print("MATRIX ADDITION")
+print("--MATRIX ADDITION")
 C = np.array([[1, 2, 3],
     [0, 1, 0],
     [1, 1, 1]])
 print(A + C)
 
-print("I am going to make a simple code so that i can learn how to merge properly")
+print("-- Looping")
 for i in range(4):
     print("simple loop iteration", i)
-
-print("Some other maths")
-
-for i in range(5):
-    ar = i * 2
-    br = np.round(np.log(ar + 1) + i,4)
-    print("The value is", br)
-
 
 print("-- Some other maths")
 
